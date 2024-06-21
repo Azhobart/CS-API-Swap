@@ -3,6 +3,7 @@ AT http://localhost:8080
 Name                           | Method | Path
 -------------------------------|--------|------------------
 Retrieve all pizza orders| GET   | /pizzas
+Retrieve specific pizza order| GET  | /pizzas/(id)
 Create new pizza order| POST   | /pizzas 
 Delete pizza order| DELETE  | /pizzas/(id)
 Update pizza order| PUT  | /pizzas/(id)
